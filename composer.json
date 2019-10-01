@@ -1,0 +1,22 @@
+{
+  "name": "davintoo/posty-api-php-sdk",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Alex Slubsky",
+      "email": "aslubsky@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Posty\\": "src/Posty/"
+    }
+  },
+  "require": {
+    "php": ">=5.5.0",
+    "psr/log": "~1.0",
+    "guzzlehttp/guzzle": "^6.2"
+  },
+  "require-dev": {
+  }
+}
